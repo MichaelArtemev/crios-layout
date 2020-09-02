@@ -1,0 +1,22 @@
+.btn {
+    /* Style for "Prostokąt" */
+    height: 51px;
+    box-shadow: 5px -3px 103px -17px rgba(0,0,0,0.40);
+    border-radius: 22px;
+    background-color: #ffffff;
+    display: inline-block;
+    transition: .4s;
+    
+
+    /* Style for "EXPLORE TE" */    
+    color: #43a9ff;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    /* Text style for "EXPLORE TE" */
+    letter-spacing: 0.14px;
+    padding: 20px 41px;
+    &:hover{
+        transform: scale(1.1);
+    }
+}
